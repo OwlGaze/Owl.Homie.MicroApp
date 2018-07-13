@@ -1,0 +1,67 @@
+/* pages/sequence/sequence.wxss */
+
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.nav_section {
+  width: 100%;
+}
+.nav_section_items{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:30rpx;
+    border-bottom:2rpx solid #ddd;
+    position: relative;
+}
+.nav_section_items:active{
+    background:#ddd;
+}
+.nav_section_items .section_image{
+    width:122rpx;
+    height:112rpx;
+}
+.nav_section_items .section_image image{
+    width:100%;
+    height:100%;
+}
+.nav_section_items .section_cont{
+    width:430rpx;
+    font-size:26rpx;
+    color:#a9a9a9;
+}
+.nav_section_items .section_cont view{
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    display: block;
+}
+.nav_section_items .section_cont .section_cont_intro{
+    white-space:normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.nav_section_items .section_cont .section_cont_sub{
+    font-size: 35rpx;
+    line-height:60rpx;
+    color:#000;
+    margin-bottom:10rpx;
+}
+.nav_section_items .section_cont .section_cont_price{
+    font-size:30rpx;
+    color:#d24a58;
+}
+.nav_section_items .section_book{
+    height:70rpx;
+    font-size:26rpx;
+    background: no-repeat left;
+    background-size:17rpx 25rpx;
+    line-height: 80rpx;
+    color:#d24a58;
+    text-align: left;
+    margin-top:30rpx;
+    padding-left:30rpx;
+}

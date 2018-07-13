@@ -1,14 +1,36 @@
 {
   "pages": [
-    "pages/home/index",
+    "pages/sequence/sequence",
     "pages/index/index",
-    "pages/logs/logs",
-    "Home"
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "有酒有肉",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/sequence/sequence",
+        "text": "",
+        "iconPath": "images/ordered-list.png",
+        "selectedIconPath": "images/ordered-list-red.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "",
+        "iconPath": "images/setting.png",
+        "selectedIconPath": "images/setting-red.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "",
+        "iconPath": "images/bar-chart.png",
+        "selectedIconPath": "images/bar-chart-red.png"
+      }
+    ]
   }
 }
