@@ -1,0 +1,14 @@
+<!--pages/test/test.wxml-->
+<view>
+  <text>pages/test/test.wxml</text>
+</view>
+<view>
+  <text>{{openid}}</text>
+</view>
+<view>
+  <text>{{name}}</text>
+</view>
+
+<button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="getOpenId"> 获取openId </button>
+
+<button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="setOpenId"> 设置openId </button>

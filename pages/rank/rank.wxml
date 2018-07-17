@@ -1,4 +1,4 @@
-<!--pages/sequence/sequence.wxml-->
+<!--pages/rank/rank.wxml-->
 <view class="container">
   <scroll-view scroll-y="true" class="page-body" bindscrolltolower="loadMore">
     <!--list-->

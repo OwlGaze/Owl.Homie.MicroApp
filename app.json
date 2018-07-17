@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/sequence/sequence",
+    "pages/test/test",
+    "pages/rank/rank",
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -14,7 +15,7 @@
     "selectedColor": "#1296db",
     "list": [
       {
-        "pagePath": "pages/sequence/sequence",
+        "pagePath": "pages/rank/rank",
         "text": "",
         "iconPath": "images/ordered-list.png",
         "selectedIconPath": "images/ordered-list-red.png"

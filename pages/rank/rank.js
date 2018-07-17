@@ -1,4 +1,4 @@
-// pages/sequence/sequence.js
+// pages/rank/rank.js
 Page({
 
   /**

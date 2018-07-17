@@ -1,5 +1,4 @@
-/* pages/sequence/sequence.wxss */
-
+/* pages/rank/rank.wxss */
 .container {
   padding: 0;
   margin: 0;
